@@ -1,0 +1,9 @@
+.boxCart svg, .boxCart path{
+  margin-left: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.trueWishlist svg, .trueWishlist path{
+  color: goldenrod;
+}

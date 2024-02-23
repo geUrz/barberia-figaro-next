@@ -1,0 +1,44 @@
+.containerHomebanner{
+  width: 100%;
+  height: auto;
+}
+
+.bannerPc{
+  display: none;
+}
+
+.dots{
+  color: red !important;
+  font-size: 15px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots li{
+  color: darkgoldenrod;
+}
+
+.dots li:active{
+  color: azure !important;
+}
+
+.dots button{
+  opacity: 0;
+}
+
+@media screen and (min-width: 600px){
+
+  .bannerMobile{
+    display: none;
+  }
+
+  .bannerPc{
+    display: block;
+  }
+
+  .dots{
+    font-size: 18px;
+  }
+
+}

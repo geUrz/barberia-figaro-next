@@ -1,0 +1,79 @@
+.containerHome{
+  margin: 30px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxLetter{
+  padding: 0 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.boxLetter h1, .boxLetter span{
+  color: darkgoldenrod;
+  font-size: 35px;
+  font-family: 'Bebas' !important;
+  font-weight: 200;
+}
+
+.boxLetter h2{
+  font-size: 22px;
+  font-weight: 200;
+  font-family: 'Bebas' !important;
+}
+
+@media screen and (min-width: 680px) and (max-width: 900px){
+
+  .containerHome{
+    margin: 50px 0;
+  }
+
+  .boxLetter{
+    margin: 30px 0;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boxLetter h1, .boxLetter span{
+    color: darkgoldenrod;
+    font-size: 35px;
+  }
+  
+  .boxLetter h2{
+    margin: 0 2px 0 10px;
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (min-width: 901px){
+
+
+
+  .boxLetter{
+    margin: 80px 0;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boxLetter h1, .boxLetter span{
+    color: darkgoldenrod;
+    font-size: 50px;
+  }
+  
+  .boxLetter h2{
+    margin: 0 2px 0 10px;
+    font-size: 40px;
+  }
+
+}

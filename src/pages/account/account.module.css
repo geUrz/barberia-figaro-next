@@ -1,0 +1,46 @@
+.containerAccount{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxSettings{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxSignOut{
+  margin-top: 35px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxSignOut svg, .boxSignOut path{
+  font-size: 14px;
+}
+
+.boxSignOut h1{
+  margin-right: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .boxSettings{
+    max-width: 380px;
+    flex-direction: row;
+  }
+
+}

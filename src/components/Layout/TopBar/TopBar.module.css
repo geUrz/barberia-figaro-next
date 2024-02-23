@@ -1,0 +1,242 @@
+.topBar{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100; 
+}
+
+.containerSearch{
+  width: 100%;
+  height: auto;
+}
+
+.containerMenu{
+  padding: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(0, 0, 0, .85);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoUser{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconUser{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  cursor: auto !important;
+}
+
+
+.iconUser svg, .iconUser path{
+  margin: 0 5px;
+  font-size: 16.5px;
+  cursor: pointer;
+}
+
+.iconUser svg:hover path{
+  color: darkgoldenrod;
+}
+
+.boxUsernameSide{
+  padding: 10px;
+  display: flex;
+}
+
+.boxUsernameSide div{
+  margin: 0 10px;
+  width: 1.2px;
+  height: 30px;
+  background-color: azure;
+}
+
+.boxUsernameSide h1{
+  color: darkgoldenrod;
+  font-size: 16px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img{
+  height: 45px;
+  cursor: pointer;
+}
+
+.iconBar{
+  margin-right: 5px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.iconBar svg, .iconBar svg path{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.iconBar svg:hover path{
+  color: darkgoldenrod;
+}
+
+.containerMenuSide{
+  width: 50%;
+  max-width: 230px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .85);
+  transition: all .25s;
+  z-index: 1000;
+}
+
+.topMenuSide{
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.topMenuSide:hover{
+  background-color: darkgoldenrod;
+}
+
+.topMenuSide:active, .topMenuSide:focus{
+  background-color: var(--btn-active);
+}
+
+.topMenuSide svg, .topMenuSide path{
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+.listaMenuSide div{
+  padding: 12px;
+  width: 100%;
+  height: auto;
+  font-size: small;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.listaMenuSide div:hover{
+  background-color: darkgoldenrod;
+}
+
+.listaMenuSide div:active{
+  background-color: var(--btn-active);
+}
+
+.iconUser{
+  padding: 12px;
+  cursor: pointer;
+}
+
+.iconUser a{
+  cursor: pointer;
+}
+
+.iconUser svg, .iconUser path{
+  cursor: pointer;
+}
+
+.menu{
+  display: none;
+}
+
+.menu svg, .menu path{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.iconLogout{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 50px;
+  z-index: 95;
+}
+
+.iconLogout div{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 0, 0);
+  cursor: pointer;
+}
+
+.iconLogout div:hover{
+  background-color: rgb(255, 16, 16);
+}
+
+.iconLogout div:active, .iconLogout div:focus{
+  background-color: rgb(255, 30, 30);
+}
+
+.iconLogout svg, .iconLogout path{
+  font-size: medium;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 780px){
+
+  .logo img{
+    height: 55px;
+  }
+
+  .iconBar{
+    display: none;
+  }
+
+  .menu{
+    width: 55%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+  }
+  
+  .menu a{
+    padding: 20px 15px;
+    font-size: small;
+    color: azure;
+    cursor: pointer;
+  }
+  
+  .menu a:hover, .menu a:hover svg, .menu a:hover path{
+    border-bottom: 1px solid;
+    color: darkgoldenrod;
+  }
+
+}
+

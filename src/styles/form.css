@@ -1,0 +1,48 @@
+.ui.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui.form input, .ui.form textarea{
+  font-size: small !important;
+  /* text-transform: capitalize !important; */
+  color: azure !important;
+  background-color: var(--background3) !important;
+}
+
+.ui.form input:focus, .ui.form textarea:focus{
+  border-color: darkgray !important;
+}
+
+.ui.form select{
+  color: darkgray !important;
+  background-color: var(--background3) !important;
+}
+
+
+.field{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ui.form button{
+  font-weight: 200;
+}
+
+.ui.circular.label{
+  color: azure;
+  font-size: 6.5px;
+  margin: 0 0 12.5px -8px !important;
+  background-color: darkgoldenrod;
+  cursor: pointer;
+}
+
+.ui input{
+  width: 300px !important;
+  color: azure !important;
+  background-color: rgb(0, 0, 0, .1) !important;
+  border: none !important;
+}

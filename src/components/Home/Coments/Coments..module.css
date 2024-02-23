@@ -1,0 +1,92 @@
+.containerSlideMobile, .containerSlidePc{
+  margin: 180px 0 50px 0;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.boxComentsLetter{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxComentsLetter h2{
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Bebas' !important;
+}
+
+.boxComentsLetter > h1{
+  color: darkgoldenrod;
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Bebas' !important;
+}
+
+.containerSlideMobile svg, .containerSlideMobile path{
+  font-size: 20px;
+}
+
+.containerSlideMobile > div{
+  width: 280px;
+}
+
+.boxSlide h1, .boxSlide h1{
+  color: darkgoldenrod;
+  font-size: 14PX;
+  font-weight: 200;
+  text-align: center
+}
+
+.boxSlide P, .boxSlide p{
+  font-size: 12PX;
+  font-weight: 200;
+  text-align: center
+}
+
+.containerSlidePc{
+  display: none;
+}
+
+
+@media screen and (min-width: 800px){
+
+  .containerSlideMobile{
+    display: none;
+  }
+
+  .containerSlidePc{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerSlidePc > div{
+    width: 100%;
+    max-width: 650px;
+  }
+
+  .containerSlidePc > div > div{
+    margin: 0 10px;
+  }
+  
+  .boxSlide{
+    margin-top: 100px;
+  }
+
+  .boxComentsLetter h1{
+    font-size: 40px;
+  }
+
+  .boxComentsLetter h2{
+    margin-right: 10px;
+    font-size: 30px;
+  }
+} 
